@@ -127,7 +127,7 @@ int output_put(int ch, void *out)
 
 void output_region(const uint8_t *ptr, size_t length)
 {
-    // RLE in 256 byte chunks
+    // RLE compress data
     struct output_ctx_t ctx = {
         .ptr = ptr,
         .length = length,
