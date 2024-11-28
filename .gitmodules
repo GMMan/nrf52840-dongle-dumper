@@ -1,0 +1,3 @@
+[submodule "shrink"]
+	path = shrink
+	url = https://github.com/howerj/shrink.git
