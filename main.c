@@ -182,7 +182,7 @@ int main(void)
                     err_code);
 
     //APP_ERROR_CHECK(err_code);
-    (void)err_code;
+    UNUSED_VARIABLE(err_code);
 
     while (true)
     {
